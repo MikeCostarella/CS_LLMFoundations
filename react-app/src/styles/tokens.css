@@ -1,0 +1,33 @@
+/* Design tokens — fleet convention: a tokens file feeding a global stylesheet.
+   LLM Foundations uses an indigo palette to set it apart from the amber of
+   Introduction to AI/ML. */
+:root {
+  --ink: #1b1d33;
+  --ink-2: #454a70;
+  --text-muted: #72779a;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --border: #dfe1ee;
+  --brand: #1e2240;
+  --brand-ink: #eef0fb;
+  --accent: #6a5acd;
+  --accent-dark: #4b3fa6;
+  --tint: #efedfb;
+  --tint-border: #d6d1f3;
+  --hover: #f1f2f9;
+  --chip: #e8e9f3;
+  --soft: #fafbfe;
+  --lab: #0f766e;
+  --lab-bg: #ecf8f6;
+  --cp: #b45309;
+  --cp-bg: #fff7ed;
+  --code-bg: #171a30;
+  --code-ink: #e3e5f5;
+  --code-comment: #8a8fb3;
+  --code-string: #9ecf8a;
+  --code-keyword: #7fd1dd;
+  --code-number: #e3b567;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(20, 22, 50, 0.08), 0 4px 14px rgba(20, 22, 50, 0.06);
+  --sidebar-w: 300px;
+}
