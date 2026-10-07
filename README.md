@@ -58,3 +58,9 @@ PWA precache. `vite.config.ts` also ignores `*.ipynb` for safety.
 
 Pushing to `main` runs `.github/workflows/deploy.yml`: install, test, build,
 and publish to GitHub Pages. The build stamp shows which build is live.
+
+## License
+
+Course content: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Code, including lab code samples: MIT. See [LICENSE.md](LICENSE.md) for details
+and the attribution line to use when adapting the course.

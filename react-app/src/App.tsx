@@ -151,6 +151,14 @@ export default function App() {
           Course by {COURSE.author} ·{" "}
           <a className="contact-link" href={`mailto:${COURSE.contactEmail}`}>
             {COURSE.contactEmail}
+          </a>{" "}
+          · Content{" "}
+          <a className="contact-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noreferrer">
+            CC BY-NC-SA 4.0
+          </a>
+          , code{" "}
+          <a className="contact-link" href="https://github.com/MikeCostarella/CS_LLMFoundations/blob/main/LICENSE.md" target="_blank" rel="noreferrer">
+            MIT
           </a>
         </span>
         <BuildStamp />
